@@ -1,0 +1,31 @@
+def weather (time):
+	if time < 12:
+		return 'morning'
+	else:
+		return 'night'
+---------------------------------------
+>>> return time < 12 and 'morning' or 'night' ==> acts the same way as if statment above.
+
+1.3 Question
+
+>>> return T < 60 or raining
+---------------------------------------
+
+while cond:
+ |
+ |
+ |
+ | (end of the line ==> go back to the top)
+
+ Ex.
+>>> n=6
+>>> while n>0:
+...	n=0
+...	print(3)
+
+==> runs only once
+----------------------------------------
+1.5 Questions
+
+1. Ans: Timeout Error
+
